@@ -1,0 +1,16 @@
+// REST API -JSON
+GET/api/users -HTML Document Render
+GET/api/user    ->list all  JSON user✅ 
+GET/api/user/1  ->get the user id 1✅ 
+GET/api/user/2  ->get the user id 2✅ 
+
+//Dynamic Path Parameters
+GEt/api.users/:id
+:id -> varible
+
+POST/api/user     ->creat new user
+PATCH/api/user/1  ->Edit the user  with id 1
+DELETE/api/user/1 ->Delete the user with id 1
+
+
+//Postman is a tools that help in the testing and the documaintation of the api
